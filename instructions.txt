@@ -1,0 +1,25 @@
+Keet Code Challenge - Data Engineer
+
+Given:
+
+- Create a new database (SQL RDS e.g. postgresl, sqlite)
+- Import the "users" CSV file into a new database table called “users”.
+- Create a new table named "daily_user_counts". 
+   The new table should have 5 columns, year, month, day, observed, count). 
+
+Next: 
+- Create a Python3 script that:
+  - Reads "users" table into a pandas dataframe.
+  - Counts the number of users by day.    
+  - Calculates the number of users expected to signup 1 day into the future. 
+    Note a simple mean/average is sufficient for communicating an expected value.       
+  - Append the new record with the expected count to the dataframe.    
+  - Load/Insert the results of your calculations (the dataframe) into the 
+    "daily_user_counts" table.
+
+Finally:  
+  - Create a `Readme` explaining how to run your solution 
+  - Include any notes regarding how you might improve your solution  
+  - Publish your solution to Github
+  - Email a link to your repo.
+
