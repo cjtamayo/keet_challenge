@@ -7,7 +7,9 @@ The data is then pulled into pandas in python, where its grouped by day and a pr
 count added, then loaded back into the SQLite db.
 
 ## Running the code
-Written in python3, the code can be run by calling `main.py`.
+Written in python3, the code can be run by calling `main.py`. 
+
+Libraries used are `sqlite3`, `csv`, and `pandas`.
 
 ## Improved solution
 Given more time and a possibly more data, some improvements may be:
